@@ -1,0 +1,119 @@
+body {
+  background: rgba(58, 58, 58, 0.829);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  background-color:rgba(58, 58, 58, 0.829);
+}
+.Foto {
+  border-radius: 50%;
+  border: 1px solid white;
+  align-items: center;
+  max-width: 280px;
+  margin: 60px;
+}
+.perfil {
+  text-align: center;
+  margin: auto;
+}
+.Servicios {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.h1 {
+  position: absolute;
+  bottom: 350px;
+  margin-left: 490px;
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+}
+.h4 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.container,
+.servi {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lo_scri {
+  background: rgb(196, 4, 4);
+  border-radius: 10px;
+  margin: 0;
+  width: 90px;
+}
+.h2 {
+  text-align: center;
+  font-size: 55px;
+}
+p,
+h3,
+h2,
+.scri {
+  text-align: center;
+}
+.int {
+  margin: 15px 375px 35px;
+}
+.inte {
+  margin: 10px 270px 30px;
+}
+.Servi {
+  margin: 5px 140px 5px;
+  background: rgba(0, 0, 0, 0.082);
+  border-radius: 10px;
+}
+.cont_ser {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.h_cont {
+  margin: 10px 10px 10px;
+  text-align: center;
+}
+h3 {
+  color: rgba(204, 20, 20, 0.993);
+  margin: 0;
+}
+.face {
+  width: 40px;
+}
+.in {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ex {
+  text-align: center;
+  margin: 1px 50px 1px;
+}
+.roll {
+  display: flex;
+}
+.tra {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(79, 74, 74);
+  border-radius: 20px;
+  margin: 1px 100px 1px 100px;
+}
+
+@media screen and (max-width: 789px) {
+   
+    .h1 {
+        bottom: 340px;
+        margin-left: 320px;
+    }
+    .int {
+        margin: 0px 200px 35px;
+    }
+    .inte {
+        margin: 10px 70px 20px;
+    }
+}
